@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
 	s.author = { "Tigran Khachaturian" => "tkhachaturyan@alfabank.ru" }
 
-	s.source 				= { :https => "https://github.com/ZharaOo/precompiled_pods/blob/master/SwiftGRPC-prebuilded.zip" }
+	s.source 				= { :https => "https://github.com/ZharaOo/precompiled_pods/raw/master/SwiftGRPC-prebuilded.zip" }
 	s.vendored_frameworks 	= "SwiftGRPC.framework"
 end
