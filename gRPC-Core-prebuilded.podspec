@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
 	s.author = { "Tigran Khachaturian" => "tkhachaturyan@alfabank.ru" }
 
-	s.source 				= { :http => "http://binary/artifactory/repopods/swift_5.1/gRPC-Core-prebuilded/1.23.1/gRPC-Core-prebuilded.zip" }
-	s.vendored_frameworks 	= "gRPC-Core.framework"
+	s.source 				= { :https => "https://github.com/ZharaOo/precompiled_pods/blob/master/gRPC-Core-prebuilded.zip" }
+	s.vendored_frameworks 	= "grpc.framework"
 end
