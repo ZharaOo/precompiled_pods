@@ -4,7 +4,6 @@ Pod::Spec.new do |s|
 	s.summary 				= "Prebuilded BoringSSL-GRPC"
 
 	s.platform				= :ios, "10.0"
-	s.swift_version			= "5.1"
 
 	s.homepage     = "https://github.com/BoringSSL-GRPC/BoringSSL-GRPC"
 
@@ -18,4 +17,5 @@ Pod::Spec.new do |s|
 
 	s.source 				= { :http => "https://github.com/ZharaOo/precompiled_pods/raw/master/openssl_grpc.zip" }
 	s.vendored_frameworks 	= "openssl_grpc.framework"
+	s.compiler_flags = "-ObjC"
 end

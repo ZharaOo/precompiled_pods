@@ -4,7 +4,6 @@ Pod::Spec.new do |s|
 	s.summary 				= "Prebuilded gRPC-Core"
 
 	s.platform				= :ios, "10.0"
-	s.swift_version			= "5.1"
 
 	s.homepage     = "https://github.com/gRPC-Core/gRPC-Core"
 
@@ -18,4 +17,5 @@ Pod::Spec.new do |s|
 
 	s.source 				= { :http => "https://github.com/ZharaOo/precompiled_pods/raw/master/grpc.zip" }
 	s.vendored_frameworks 	= "grpc.framework"
+	s.compiler_flags = "-ObjC"
 end
