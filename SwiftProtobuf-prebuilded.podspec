@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
 	s.author = { "Tigran Khachaturian" => "tkhachaturyan@alfabank.ru" }
 
-	s.source 				= { :https => "https://github.com/ZharaOo/precompiled_pods/raw/master/SwiftProtobuf-prebuilded.zip" }
+	s.source 				= { :http => "https://github.com/ZharaOo/precompiled_pods/raw/master/SwiftProtobuf-prebuilded.zip" }
 	s.vendored_frameworks 	= "SwiftProtobuf.framework"
 end
