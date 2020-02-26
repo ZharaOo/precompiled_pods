@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
 	s.author = { "Tigran Khachaturian" => "tkhachaturyan@alfabank.ru" }
 
-	s.source 				= { :http => "https://github.com/ZharaOo/precompiled_pods/raw/master/BoringSSL-GRPC-prebuilded.zip" }
+	s.source 				= { :http => "http://binary/artifactory/repopods/swift_5.1.2/BoringSSL-GRPC-prebuilded/0.0.3/BoringSSL-GRPC-prebuilded.zip" }
 	s.vendored_frameworks 	= "openssl_grpc.framework"
 	s.compiler_flags = "-ObjC"
 end
