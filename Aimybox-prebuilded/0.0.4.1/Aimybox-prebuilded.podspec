@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
 	s.author = { "Tigran Khachaturian" => "tkhachaturyan@alfabank.ru" }
 
-	s.source 				= { :http => "http://binary/artifactory/repopods/swift_5.1.2/Aimybox-prebuilded/0.0.4.1/Aimybox-prebuilded.zip" }
+	s.source 				= { :http => "https://github.com/ZharaOo/precompiled_pods/raw/master/Aimybox-prebuilded.zip" }
 	s.vendored_frameworks 	= "Aimybox.framework"
 
 	s.dependency 'BoringSSL-GRPC-prebuilded'
