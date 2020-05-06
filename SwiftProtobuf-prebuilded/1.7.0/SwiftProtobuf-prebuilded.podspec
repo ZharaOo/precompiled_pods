@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
 	s.author = { "Tigran Khachaturian" => "tkhachaturyan@alfabank.ru" }
 
-	s.source 				= { :http => "http://binary/artifactory/repopods/swift_5.1.2/SwiftProtobuf-prebuilded/1.7.0/SwiftProtobuf-prebuilded.zip" }
+	s.source 				= { :http => "https://github.com/ZharaOo/precompiled_pods/raw/master/SwiftProtobuf-prebuilded.zip" }
 	s.vendored_frameworks 	= "SwiftProtobuf.framework"
 end
