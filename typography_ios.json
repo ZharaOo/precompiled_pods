@@ -1,0 +1,26 @@
+{
+  "Heading1": {
+    "font_size": 30,
+    "line_height": 36,
+    "line_spacing": 0,
+    "font_weight": "medium",
+    "letter_spacing": 0.36,
+    "font_family": "test2"
+  },
+  "PrimaryParagraph.Regular": {
+    "font_size": 27,
+    "line_height": 32,
+    "line_spacing": 0,
+    "font_weight": "regulat",
+    "letter_spacing": 0.35,
+    "font_family": "test1"
+  },
+  "Secondary.Bold": {
+    "font_size": 22,
+    "line_height": 28,
+    "line_spacing": 2,
+    "font_weight": "bold",
+    "letter_spacing": 0.35,
+    "font_family": "system"
+  }
+}
